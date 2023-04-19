@@ -400,6 +400,8 @@ INSERT INTO characters(
 )
 VALUES (
     "Joker"
+    "6",
+    "2"
 );
 INSERT INTO characters(
     name
@@ -408,7 +410,10 @@ INSERT INTO characters(
 )
 VALUES (
     "Harvey Dent"
+    "7"
+    "2"
 );
+
 INSERT INTO characters(
     name
     actors_id,
@@ -416,7 +421,8 @@ INSERT INTO characters(
 )
 VALUES (
     "Bane"
-    
+    "9"
+    "3"
 );
 INSERT INTO characters(
     name
@@ -425,6 +431,8 @@ INSERT INTO characters(
 )
 VALUES (
     "John Blake"
+    "10"
+    "3"
 );
 INSERT INTO characters(
     name
