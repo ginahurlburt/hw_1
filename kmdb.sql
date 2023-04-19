@@ -198,8 +198,8 @@ INSERT INTO actors(
     last_name
 )
 VALUES(
-    "Batman Begins"
-    "Christian"
+    "Batman Begins",
+    "Christian",
     "Bale"
 );
 INSERT INTO actors(
@@ -208,8 +208,8 @@ INSERT INTO actors(
     last_name
 )
 VALUES(
-    "The Dark Knight"
-    "Christian"
+    "The Dark Knight",
+    "Christian",
     "Bale"
 );
 INSERT INTO actors(
@@ -218,8 +218,8 @@ INSERT INTO actors(
     last_name
 )
 VALUES(
-    "The Dark Knight Rises"
-    "Christian"
+    "The Dark Knight Rises",
+    "Christian",
     "Bale"
 ); 
 INSERT INTO actors(
@@ -228,7 +228,7 @@ INSERT INTO actors(
     last_name
 )
 VALUES(
-    "The Dark Knight Rises"
-    "Michael"
-    "Caine"
+    "Batman Begins",
+    "Michael",
+    "Caine",
 ); 
