@@ -108,18 +108,7 @@
 .print "======"
 .print ""
 
--- The SQL statement for the movies output
--- TODO!
 
--- Prints a header for the cast output
-.print ""
-.print "Top Cast"
-.print "========"
-.print ""
-
-
--- The SQL statement for the cast output
--- TODO!
 
 -- Drop existing tables, so you'll start fresh each time this script is run.
 -- TODO!
@@ -148,6 +137,7 @@ CREATE TABLE studios(
 );
 CREATE TABLE characters(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
     movies_id INTEGER,
     actors_id INTEGER
 );
@@ -275,4 +265,87 @@ INSERT INTO actors (
 VALUES (
     "Anne",
     "Hathaway"
+); 
+
+INSERT INTO studios(
+    name
+)
+VALUES (
+    "Warner Bros."
 );
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Bruce Wayne"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Alfred"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Ra's Al Ghul"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Rachel Dawes"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Commissioner Gordon"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Joker"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Harvey Dent"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Bane"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "John Blake"
+);
+INSERT INTO characters(
+    name
+)
+VALUES (
+    "Selina Kyle"
+); 
+
+-- The SQL statement for the movies output
+-- TODO!
+SELECT movies.title, movies.year_released, movies.MPAA_rating
+FROM movies;
+
+-- Prints a header for the cast output
+.print ""
+.print "Top Cast"
+.print "========"
+.print ""
+
+
+-- The SQL statement for the cast output
+-- TODO!
+
