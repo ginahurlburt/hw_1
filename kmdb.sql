@@ -146,8 +146,8 @@ CREATE TABLE movies(
 );
 CREATE TABLE actors(
     id INTEGER PRIMARY KEY AUTOINCREMENT
-    movie_id
-    first_name TEXT
+    movies_id,
+    first_name TEXT,
     last_name TEXT
 );
 CREATE TABLE studios(
@@ -192,3 +192,43 @@ VALUES(
     "2012",
     "PG-13"
 );
+INSERT INTO actors(
+    movies_id,
+    first_name,
+    last_name
+)
+VALUES(
+    "Batman Begins"
+    "Christian"
+    "Bale"
+);
+INSERT INTO actors(
+    movies_id,
+    first_name,
+    last_name
+)
+VALUES(
+    "The Dark Knight"
+    "Christian"
+    "Bale"
+);
+INSERT INTO actors(
+    movies_id,
+    first_name,
+    last_name
+)
+VALUES(
+    "The Dark Knight Rises"
+    "Christian"
+    "Bale"
+); 
+INSERT INTO actors(
+    movies_id,
+    first_name,
+    last_name
+)
+VALUES(
+    "The Dark Knight Rises"
+    "Michael"
+    "Caine"
+); 
